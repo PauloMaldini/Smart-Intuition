@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+<!-- UI controllers -->
+<dict>
+  <!-- ui swipe heading set -->
+  <key>uic_swp_hdg_set</key>
+  <dict>
+
+    <key>scr_layout</key>
+    <array>
+      <!-- X value from left bottom corner -->
+      <integer>0</integer>
+
+      <!-- Y value from lbc -->
+      <integer>0</integer>
+
+      <!-- X size -->
+      <integer>250</integer>
+
+      <!-- Y size -->
+      <integer>140</integer>
+
+    </array>
+
+    <key>param</key>
+    <string>target_heading</string>
+
+
+    <!-- Range of parameter change -->
+    <key>range</key>
+    <array>
+      <!-- From value -->
+      <integer>0</integer>
+
+      <!-- To value -->
+      <integer>360</integer>
+
+      <!-- Accuracy step -->
+      <integer>1</integer>
+    </array>
+
+    <!-- Swipe catch (As 100 pixels finger move changes parameter) -->
+    <key>sw_catch</key>
+    <array>
+      <!-- Slow swipe ( <200 pixels per second ) -->
+      <integer>10</integer>
+
+      <!-- Fast swipe ( >200 pixels per second)-->
+      <integer>20</integer>
+
+    </array>
+
+
+  </dict>
+  
+  
+  <!-- ui slider speed set -->
+  <key>uic_sld_spd_set</key>
+  <dict>
+
+    
+    <key>scr_layout</key>
+    <array>
+      <!-- X value from left bottom corner -->
+      <integer>250</integer>
+      
+      <!-- Y value from lbc -->
+      <integer>0</integer>
+
+      <!-- X size -->
+      <integer>70</integer>
+
+      <!-- Y size -->
+      <integer>180</integer>
+      
+    </array>
+
+    <key>param</key>
+    <string>operating_power</string>
+    
+    
+    <!-- Range of parameter change [Percent of enabled power] -->
+    <!--   Depends of Max module power, and damage state -->
+    <key>range</key>
+    <array>
+      <!-- From value -->
+      <integer>0</integer>
+      
+      <!-- To value -->
+      <integer>100</integer>
+
+    </array>
+    
+	</dict>
+
+</dict>
+</plist>

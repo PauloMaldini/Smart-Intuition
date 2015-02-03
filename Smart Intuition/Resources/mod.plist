@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>New item</key>
+	<dict>
+		<key>New item</key>
+		<dict/>
+		<key>New item - 2</key>
+		<string></string>
+	</dict>
+	<key>mod_types</key>
+	<dict>
+		<key>model</key>
+		<dict>
+			<key>phis_data</key>
+			<dict>
+				<key>wght_e</key>
+				<integer>8550</integer>
+				<key>fuel_flow</key>
+				<string>0.00004</string>
+				<key>k_resist</key>
+				<integer>25</integer>
+				<key>max_fuel</key>
+				<integer>850</integer>
+				<key>max_power</key>
+				<integer>28700</integer>
+			</dict>
+			<key>mod_name</key>
+			<string>Cruiser</string>
+			<key>scr_pos</key>
+			<array>
+				<integer>152</integer>
+				<integer>255</integer>
+			</array>
+			<key>mod_cen_ofs</key>
+			<array>
+				<integer>8</integer>
+				<integer>17</integer>
+			</array>
+			<key>png_get</key>
+			<array>
+				<integer>2</integer>
+				<integer>30</integer>
+				<integer>16</integer>
+				<integer>30</integer>
+			</array>
+		</dict>
+	</dict>
+	<key>general</key>
+	<dict>
+		<key>filename</key>
+		<string>mod.png</string>
+		<key>hdg_pointer</key>
+		<dict>
+			<key>base_point_ofs</key>
+			<array>
+				<integer>11</integer>
+				<integer>-13</integer>
+			</array>
+			<key>scr_pos</key>
+			<array>
+				<integer>152</integer>
+				<integer>348</integer>
+			</array>
+			<key>png_get</key>
+			<array>
+				<integer>2</integer>
+				<integer>10</integer>
+				<integer>22</integer>
+				<integer>18</integer>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

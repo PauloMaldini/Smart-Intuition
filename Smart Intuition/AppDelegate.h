@@ -8,8 +8,36 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
+@class EAGLView;
+@class OptionsView;
+@class ResultView;
+
+@interface AppDelegate : NSObject <UIApplicationDelegate, UIAccelerometerDelegate>
+{
+    UIWindow *window;
+    EAGLView *glView;
+    OptionsView *optionView;
+    ResultView *resultView;
+    
+    
+    UIViewController *eaglViewController;
+    UIViewController *optionsViewController;
+    UINavigationController *navigationController;
+}
+
+@property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) IBOutlet EAGLView *glView;
+@property (nonatomic, retain) IBOutlet OptionsView *optionView;
+@property (nonatomic, retain) IBOutlet ResultView *resultView;
+
+- (void) showOptions;
+- (void) showResult:(short)collisCount;
+- (IBAction) showGame;
+- (IBAction) didMoveSpeedTFExit;
+- (IBAction) didRotateSpeedTFExit;
+- (IBAction) didMoveAccelerTFExit;
+- (IBAction) touchResultView:(NSSet *)touches withEvent:(UIEvent *)event;
+
 
 @end
